@@ -6,6 +6,7 @@ html {
 html, body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
   
 }
 
@@ -35,15 +36,15 @@ body{
   left: 0;             
   width: 100%;          
   z-index: 1000;
+  flex-wrap: wrap;
 
 }
 
-#control{
 
-}
 .section1{
   display: flex;
   margin: 30px;
+  flex-wrap: wrap;
 }
 
 .main1 .text3 .my-icon{
@@ -93,6 +94,7 @@ padding-bottom: 20px;
     display: flex;
   align-items: center;
   gap: 8px; 
+  flex-wrap: wrap;
 }
 h2{
     color: rgb(255, 128, 0);
@@ -105,8 +107,7 @@ h2{
   display: flex;
   gap: 25px;
   padding: 30px;
-
-  
+  flex-wrap: wrap;
  
 }
 
@@ -174,6 +175,7 @@ font-size: 20px;
 .cohort{
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .cohort .first .hs{
@@ -197,7 +199,6 @@ font-size: 20px;
   gap: 20px;
 }
 .btn button{
- 
   padding: 20px;
   border-radius: 5px;
   color: #fff;
@@ -234,10 +235,10 @@ button:hover{
   height: 100%;
   background: rgba(0,0,0,0.5);
   color: white;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container .overlay h2{
@@ -266,6 +267,7 @@ button:hover{
   font-family: Georgia, "Times New Roman", serif;
   letter-spacing: 2px;
 }
+
 .control-midle p{
   font-family: Georgia, "Times New Roman", serif;
   font-size: 30px;
@@ -287,6 +289,7 @@ button:hover{
   display: flex;
   margin: 30px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .robot h2{
@@ -342,6 +345,7 @@ align-items: center;
  width: 100%;
   padding: 40px;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .week .hd{
@@ -384,6 +388,7 @@ text-align: center;
 
 #ten{
   display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -443,6 +448,7 @@ text-align: center;
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 1.3);
+  flex-wrap: wrap;
 }
 .lay2 p{
   font-weight: 800;
@@ -477,6 +483,7 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  flex-wrap: wrap;
  
   
 }
@@ -561,6 +568,7 @@ hr{
   border: 2px #333;
   background-color: #1a202c;
   padding: 20px;
+  flex-wrap: wrap;
 }
 .weda p{
   color: #EAF4FF;
@@ -665,12 +673,14 @@ color: #f97316;
 display: flex;
 justify-content: space-between;
 padding: 1em;
+flex-wrap: wrap;
 }
 
 .logo-area{
     display: flex;
   align-items: center;
   gap: 8px; 
+  flex-wrap: wrap;
 }
 .footer-cont p{
   color: #EAF4FF;
@@ -680,6 +690,7 @@ padding: 1em;
 .footer-kid2{
 padding: 40px;
 }
+
 .footer-kid2 h1{
   color: #EAF4FF;
   font-size: 30px;
@@ -701,6 +712,7 @@ padding: 40px;
 .c{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .c p{
@@ -725,6 +737,7 @@ padding: 40px;
 .ai .kd1{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
  
   background-color: white;
 
@@ -735,6 +748,7 @@ padding: 40px;
   justify-content: space-between;
   padding: 30px;
  background-color: #fff;
+ flex-wrap: wrap;
   
 
 }
@@ -786,6 +800,7 @@ padding: 5em;
 }
 .hero .hero-cont{
   display: flex;
+  flex-wrap: wrap;
   
 }
 .imag{
@@ -894,6 +909,7 @@ details p{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -923,6 +939,7 @@ details p{
 display: flex;
 justify-content: center;
 gap: 30px;
+flex-wrap: wrap;
 }
 
 .content1 .bx1{
@@ -977,9 +994,9 @@ padding: 20px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
-
-
+  flex-wrap: wrap;
 }
+
 .pchild{
  padding: 30px;
   background-color: #1a202c;
@@ -987,7 +1004,6 @@ padding: 20px;
   
   
 }
-
 .pchild .child-h1 {
   display: flex;
   font-weight: 400;
@@ -1002,6 +1018,7 @@ padding: 20px;
    padding: 20px;
   border-radius: 50%;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .pchild .child-h3{
@@ -1087,6 +1104,7 @@ padding: 20px;
 /* Show menu when JS adds 'flex' */
 .nav-links.flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* Desktop: show menu and hide hamburger */
@@ -1098,6 +1116,7 @@ padding: 20px;
     position: static;
     width: auto;
     background: none;
+    flex-wrap: wrap;
   }
 
   #hamburger {
