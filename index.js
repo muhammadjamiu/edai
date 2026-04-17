@@ -29,19 +29,3 @@ allDetails.forEach((detail) => {
 });
 
 
-
-
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-}
-
-document.getElementById("homeLink").addEventListener("click", function(e) {
-  e.preventDefault();
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-});
