@@ -1,15 +1,4 @@
 
-// const hamburger = document.getElementById("hamburger");
-//   const navLinks = document.querySelector(".nav-links");
-
-//   hamburger.addEventListener("click", () => {
-//     navLinks.classList.toggle("hidden");  // show/hide menu
-//     navLinks.classList.toggle("flex");    // make links stack vertically
-//     navLinks.classList.toggle("flex-col");
-//     navLinks.classList.toggle("gap-5");
-//   });
-
-
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 
@@ -36,5 +25,23 @@ allDetails.forEach((detail) => {
         }
       });
     }
+  });
+});
+
+
+
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+document.getElementById("homeLink").addEventListener("click", function(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
   });
 });
