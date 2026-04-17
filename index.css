@@ -4,9 +4,7 @@ html, body{
   margin: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
-   scroll-padding-top: 80px;
-
-  
+  scroll-padding-top: 80px;
 }
 
 *{
@@ -14,7 +12,6 @@ html, body{
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  
 }
 
 body{
@@ -35,15 +32,12 @@ body{
   left: 0;             
   width: 100%;          
   z-index: 1000;
-  
-
 }
 
 
 .section1{
   display: flex;
   margin: 30px;
-  
 }
 
 .main1 .text3 .my-icon{
